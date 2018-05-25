@@ -9,9 +9,9 @@ $(function() {
         animationSpeed: 400,
         animationEasing: "easeInOutExpo",
         showNav: true,                      // Show Navigation
-        nextText: "Next",                   // Next button text
-        prevText: "Previous",               // Previous button text
-        closeText: "Close",                 // Close button text
+        nextText: "<span>__</span>",        // Next button text
+        prevText: "<span>__</span>",               // Previous button text
+        closeText: "<span>__</span",                 // Close button text
         onStart: function(){
             //Gridder Inititialized
         },

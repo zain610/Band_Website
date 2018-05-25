@@ -59,4 +59,22 @@ body > div > div.poptrox-popup{
 /**/
 .gridder{margin:0px;padding:0px;list-style-type:none;font-size:0}.gridder-list,.gridder-show{font-size:16px}.gridder-list{display:inline-block;vertical-align:top}.gridder-show{display:block;float:left;width:100%;position:relative}.gridder-content{display:none}.gridder-list{width:49.5%}.gridder-list:nth-child(n){margin-bottom:1%;margin-right:1%}.gridder-list:nth-of-type(2n){margin-right:0;margin-bottom:0}
 
-/*<------------NAV-------------->*/
+/*.gridder-navigation .gridder-nav.next { right: -6px; -webkit-transform: scaleX(-1); transform: scaleX(-1); }*/
+.gridder-navigation .gridder-nav.prev span { 
+	font-size: 25px; 
+	margin: 1em;
+	background: url("images/angle-left.svg") center no-repeat; 
+}
+.gridder-navigation .gridder-nav.next span { 
+	font-size: 25px;
+	margin: 1em;
+	background: url("images/angle-right.svg") center no-repeat; 
+}
+
+.gridder-navigation .gridder-close {
+	font-size: 25px;
+	margin: 1em;
+	background: url('images/times.svg') center no-repeat;
+}
+
+	/*<------------NAV-------------->*/
